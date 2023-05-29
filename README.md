@@ -46,7 +46,7 @@ pip install heapq
 - <top_values>: (Optional) Number of top values to consider. Default value is 3.
 
 #### input format
-    The program accepts input in the following format:
+   The program accepts input in the following format:
 ```bash
     <unique record identifier> <numeric value>
 ```
