@@ -45,7 +45,7 @@ pip install heapq
 - <file_path>: (Optional) Absolute or relative path to the file containing the records in the specified format. If not provided, the program will read from stdin.
 - <top_values>: (Optional) Number of top values to consider. Default value is 3.
 
-### input format
+#### input format
     The program accepts input in the following format:
 ```bash
     <unique record identifier> <numeric value>
@@ -61,7 +61,7 @@ Example:
 
 - The input can be provided through a file or through stdin.
 
-### Output Format
+#### Output Format
 The program outputs a list of the unique record identifiers associated with the X-largest values, where X is the specified number of top values.
 
 Example Output:
