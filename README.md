@@ -82,10 +82,10 @@ This code has the following algorithmic complexities:
 
 Time Complexity: O(N log X)
 
-   -N is the number of records in the dataset.
-   -X is the desired number of top values to retrieve.
-   -The code iterates through the dataset once, performing heap operations that take logarithmic time.
-   -Memory Complexity: O(X)
+- N is the number of records in the dataset.
+- X is the desired number of top values to retrieve.
+- The code iterates through the dataset once, performing heap operations that take logarithmic time.
+- Memory Complexity: O(X)
 
 The code uses a min-heap of size X to store the top X values.
 
